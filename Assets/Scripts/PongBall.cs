@@ -27,7 +27,7 @@ public class PongBall : MonoBehaviour
     void Start()
     {
 
-        Vector2 newVelocity = new Vector2(Random.Range(-5f, 5f), Random.Range(-1f, 1f));
+        Vector2 newVelocity = new Vector2(Random.Range(-5f, 5f), Random.Range(-0.5f, 0.5f));
         mainRigidBody.velocity = newVelocity.normalized * startSpeed;
 
     }
