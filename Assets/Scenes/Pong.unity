@@ -221,7 +221,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 2
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -270,7 +270,7 @@ MonoBehaviour:
   mainRigidBody: {fileID: 135013185}
   upKey: 273
   downKey: 274
-  moveSpeed: 400
+  moveSpeed: 700
 --- !u!1 &345630417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,7 +1898,7 @@ MonoBehaviour:
   mainRigidBody: {fileID: 2100678346}
   upKey: 119
   downKey: 115
-  moveSpeed: 400
+  moveSpeed: 700
 --- !u!50 &2100678346
 Rigidbody2D:
   serializedVersion: 4
@@ -1912,7 +1912,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 2
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
