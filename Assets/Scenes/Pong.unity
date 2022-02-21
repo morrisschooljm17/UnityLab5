@@ -1160,6 +1160,7 @@ MonoBehaviour:
   ball: {fileID: 1274782648}
   goalText: {fileID: 2017838032}
   winText: {fileID: 1660475077}
+  PongBall: {fileID: 1274782645}
 --- !u!1 &1660475077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1529,7 @@ MonoBehaviour:
   ball: {fileID: 1274782648}
   goalText: {fileID: 1123623287}
   winText: {fileID: 2024263508}
+  PongBall: {fileID: 1274782645}
 --- !u!1 &2017838030
 GameObject:
   m_ObjectHideFlags: 0
