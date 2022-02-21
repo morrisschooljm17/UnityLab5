@@ -7,6 +7,7 @@ public class PongGoal : MonoBehaviour
 {
     [SerializeField] private PongBall ball;
     [SerializeField] private TMP_Text goalText;
+    [SerializeField] private GameObject winText;
     private int Score = 0;
 
 
@@ -19,16 +20,18 @@ public class PongGoal : MonoBehaviour
             
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
     {
         goalText.text = "" + Score;
+
+        if (Score == 5) {
+
+            winText.SetActive(true);
+
+        }
 
     }
 }
